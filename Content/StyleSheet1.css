@@ -1,0 +1,14 @@
+﻿table {
+    width : 400px;
+}
+th{
+    text-align: left;
+    background-color: #0094ff;
+}
+table, th, td {
+    border: 1px solid lightblue;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}

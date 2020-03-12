@@ -1,0 +1,39 @@
+﻿@model LinkAnalyser.Models.LinkSource
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="~/Content/StyleSheet1.css" type="text/css" />  @*make sure this work as expected*@
+    
+    <title>ModelLink</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th>CEID</th>
+                <th>Action</th>
+                <th>Expected gain </th>
+                <th>DD</th>
+                <th>Owner</th>
+                <th>Help Needed</th>
+            </tr>
+            <tr>
+                <td>@Model.CEID</td>
+                <td> </td>
+                <td>@Model.GAP</td>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
